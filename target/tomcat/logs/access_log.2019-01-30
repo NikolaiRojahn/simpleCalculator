@@ -1,0 +1,5 @@
+127.0.0.1 - - [30/Jan/2019:16:10:39 +0100] "GET /simpleCalculator/calculator?operation=sub&n1=7&n2=3 HTTP/1.1" 200 20 http-bio-7777-exec-1 172
+127.0.0.1 - - [30/Jan/2019:16:10:39 +0100] "GET /simpleCalculator/calculator?operation=add&n1=2&n2=3 HTTP/1.1" 200 20 http-bio-7777-exec-2 8
+127.0.0.1 - - [30/Jan/2019:16:10:39 +0100] "GET /simpleCalculator/calculator?operation=div&n1=17&n2=0 HTTP/1.1" 400 32 http-bio-7777-exec-3 6
+127.0.0.1 - - [30/Jan/2019:16:10:39 +0100] "GET /simpleCalculator/calculator?operation=mul&n1=10&n2=19 HTTP/1.1" 200 24 http-bio-7777-exec-4 4
+127.0.0.1 - - [30/Jan/2019:16:10:39 +0100] "GET /simpleCalculator/calculator?operation=div&n1=50&n2=5 HTTP/1.1" 200 22 http-bio-7777-exec-5 7
